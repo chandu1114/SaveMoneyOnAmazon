@@ -1,0 +1,102 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  grid-column: center-start / center-end;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.product {
+  background-color: #fff;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  text-align: center;
+
+  &__img {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 2rem;
+    background-size: cover;
+  }
+
+  &__name {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.8rem;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &:hover {
+      transform: scale(1.05);
+      color: #1ac431;
+    }
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  &__rating {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-right: 3rem;
+
+    &_span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &_star {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
+
+  &__discount {
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    &_disImg {
+      margin-right: 1rem;
+    }
+  }
+
+  &__price {
+    font-size: 3.2rem;
+    margin-top: -0.2rem;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &_flex_1 {
+    display: flex;
+    align-items: center;
+  }
+
+  &_link {
+    font-size: 1.8rem;
+    transition: all 0.2s;
+
+    &:hover,
+    &:active {
+      background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: translateY(1.05);
+    }
+  }
+
+  &_note {
+    font-weight: 600;
+    margin: 0;
+  }
+}

@@ -180,6 +180,9 @@ const Categories = () => {
         target="_blank"
       >
         {item.name}
+        <div className={classes.categoryItem_redirectmsg}>
+          (It'll redirect to Amazon)
+        </div>
       </a>
     </li>
   ));

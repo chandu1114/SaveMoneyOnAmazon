@@ -3,7 +3,12 @@ import classes from "./App.module.scss";
 function App() {
   return (
     <main className={classes.container}>
-      <div className={classes.container_logotext}>Savemoney</div>
+      <div className={classes.container_divider}>
+        <div className={classes.container_logotext}>Savemoney</div>
+        <a href="/categories" className={classes.container_categories}>
+          All Categories
+        </a>
+      </div>
       <p className={classes.container_logodesc}>
         One Place to Know On-going Best Deals of All Products.Save Time and
         Money.

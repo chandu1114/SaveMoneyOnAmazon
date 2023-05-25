@@ -40,8 +40,8 @@ const ProductsList = () => {
       <p className={classes.product__price}>&#8377;{product.price}</p>
       <a href={product.link} className={classes.product_link} target="_blank">
         Click here to Buy
+        <div className={classes.product_note}>(It'll redirect to amazon)</div>
       </a>
-      <p className={classes.product_note}>(will redirect to amazon)</p>
     </li>
   ));
 

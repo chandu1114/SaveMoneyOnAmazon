@@ -289,4 +289,15 @@ export const Data = [
     price: "349",
     link: "https://amzn.to/42hdzyQ",
   },
+
+  {
+    id: "p27",
+    image: "https://m.media-amazon.com/images/I/91Phj9+PcfL._UY500_.jpg",
+    name: "Fashion Frill Stylish Bracelet",
+    description: "For Men Women Gold Plated",
+    rating: "-",
+    discount: "65%",
+    price: "349",
+    link: "https://amzn.to/42hdzyQ",
+  },
 ];

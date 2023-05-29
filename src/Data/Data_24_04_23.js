@@ -110,7 +110,7 @@ export const Data = [
     price: "479",
     link: "https://amzn.to/3OL13E3",
   },
-  {
+  /*{
     id: "12",
     image: "https://m.media-amazon.com/images/I/817uGADN31L._SX425_.jpg",
     name: "Geek Ikuku Air Purifier for Home",
@@ -127,7 +127,7 @@ export const Data = [
     rating: "4.2 (22138+)",
     discount: "2049",
     price: "https://amzn.to/43tdBEb",
-  },
+  },*/
   {
     id: "14",
     image: "https://m.media-amazon.com/images/I/614pmXRPMFL._SY355_.jpg",

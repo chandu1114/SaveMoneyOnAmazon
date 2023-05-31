@@ -148,4 +148,14 @@ export const Data = [
     price: "899",
     link: "https://amzn.to/3OKfSqw",
   },
+  {
+    id: "16",
+    image: "https://m.media-amazon.com/images/I/51NYSJRXJ6L._SX569_.jpg",
+    name: "Nivea Men Creme",
+    description: "Dark Spot Reduction",
+    rating: "4.1 (13,026+)",
+    discount: "35%",
+    price: "259",
+    link: "https://amzn.to/42eBjD2",
+  },
 ];
